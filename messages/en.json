@@ -1,0 +1,13 @@
+{
+  "Navbar": {
+    "Home": "Home",
+    "Projects": "Projects",
+    "Blogs": "Blogs"
+  },
+  "HomePage": {
+    "greeting": "Hello, I am",
+    "name": "Rohit Kushwaha",
+    "profession": "a Software Developer.",
+    "btn": "Connect With Me"
+  }
+}

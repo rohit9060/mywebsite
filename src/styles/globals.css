@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Sofia&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-english {
+  font-family: "Sofia", sans-serif;
+}
+
+.font-korean {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.font-hindi {
+  font-family: "Tiro Devanagari Hindi", sans-serif;
+}
