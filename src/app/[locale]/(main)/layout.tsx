@@ -8,9 +8,7 @@ export default function MainLayout({
   return (
     <>
       <Navbar />
-      <main className=" flex items-center justify-center gap-10 flex-col  mt-10 lg:mt-24 p-5">
-        {children}
-      </main>
+      <main className="min-h-screen">{children}</main>
     </>
   );
 }

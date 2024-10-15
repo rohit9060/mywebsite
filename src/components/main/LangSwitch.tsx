@@ -40,13 +40,17 @@ export function LangSwitch() {
       <label className="cursor-pointer">
         <p className="sr-only">Change Language</p>
         <select
-          className="bg-transparent py-2 "
+          className="bg-transparent py-2"
           onChange={OnSelectChange}
           disabled={isPending}
           defaultValue={localActive}
         >
           {routes.map((route) => (
-            <option key={route.locale} value={route.locale}>
+            <option
+              key={route.locale}
+              value={route.locale}
+              className="bg-gray-900"
+            >
               {route.name}
             </option>
           ))}

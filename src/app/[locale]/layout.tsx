@@ -24,13 +24,9 @@ export default async function RootLayout({
     "font-hindi": locale === "hi",
   });
 
-  console.log(fontClass);
-
   return (
     <html lang={locale}>
-      <body
-        className={twMerge(fontClass, "bg-gray-900 text-white min-h-screen")}
-      >
+      <body className={twMerge(fontClass, "bg-gray-950 text-white relative")}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

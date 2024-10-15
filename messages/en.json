@@ -8,6 +8,8 @@
     "greeting": "Hello, I am",
     "name": "Rohit Kushwaha",
     "profession": "a Software Developer.",
-    "btn": "Connect With Me"
+    "btn": "Connect With Me",
+    "aboutHead": "Who am I ?",
+    "about": "Hi, I’m Rohit Kushwaha, a passionate full-stack software developer dedicated to crafting modern and efficient web applications. With a strong foundation in both front-end and back-end technologies, I specialize in creating high-quality user interfaces that not only look great but also perform seamlessly. I design and implement responsive, user-friendly interfaces while building robust and scalable server-side applications. I prioritize performance, animations, and accessibility to enhance the overall user experience, and I understand the importance of SEO optimization to improve search engine rankings. Always eager to learn new technologies, I thrive on exploring innovative solutions to complex challenges. Let’s connect and build something great together!"
   }
 }
