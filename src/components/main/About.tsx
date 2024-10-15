@@ -15,6 +15,7 @@ export function About() {
             width={500}
             height={500}
             className="rounded-3xl shadow-md backdrop-blur-md w-80 lg:w-full"
+            priority
           />
         </div>
         <article className="w-full animate-fadeInUp">
